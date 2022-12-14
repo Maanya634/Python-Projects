@@ -3,7 +3,7 @@ age = input('Enter your age')
 
 import csv
 
-header = ['name', 'area', 'country_code2', 'country_code3']
+header = ['name', 'age']
 data = [name, age]
 
 with open('countries.csv', 'w', encoding='UTF8') as f:
